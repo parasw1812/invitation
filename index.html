@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#321b35">
+  <title>Chirag & Kirti | Reception Invitation</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Great+Vibes&family=Marcellus&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="ambient" aria-hidden="true"></div>
+
+  <main class="experience" id="experience">
+
+    <div class="curtain curtain-left" aria-hidden="true">
+      <span class="curtain-tassel">✦</span>
+    </div>
+
+    <div class="curtain curtain-right" aria-hidden="true">
+      <span class="curtain-tassel">✦</span>
+    </div>
+
+    <!-- Welcome screen -->
+    <section class="welcome" id="welcome">
+      <div class="welcome-ornament">✧ ❀ ✧</div>
+
+      <p class="eyebrow">A CELEBRATION OF LOVE</p>
+
+      <h1>Chirag <span>&amp;</span> Kirti</h1>
+
+      <p class="welcome-copy">
+        An evening of love, blessings<br>
+        and beautiful beginnings
+      </p>
+
+      <button class="gold-button" id="openBtn" type="button">
+        Open Invitation <span>✦</span>
+      </button>
+
+      <p class="welcome-foot">11 DECEMBER 2026 · ROHTAK</p>
+    </section>
+
+    <!-- Invitation card -->
+    <section class="invitation" id="invitation">
+
+      <article class="card-frame">
+        <div class="card-inner">
+
+          <div class="top-line">
+            <span>✧</span><span>❀</span><span>✧</span>
+          </div>
+
+          <div class="ganesh-seal">
+            <span class="om">ॐ</span>
+            <span class="ganesh-caption">श्री गणेशाय नमः</span>
+          </div>
+
+          <p class="intro reveal">
+            WITH THE BLESSINGS OF OUR ELDERS
+          </p>
+
+          <p class="invite-line reveal">
+            Together with our families,
+          </p>
+
+          <p class="invite-line reveal">
+            we joyfully invite you to celebrate the
+          </p>
+
+          <h2 class="event-title reveal">Reception</h2>
+
+          <div class="ornamental-divider reveal">
+            <span>❧</span><i></i><span>❧</span>
+          </div>
+
+          <div class="couple-names reveal">
+
+            <div class="person">
+              <h3>Chirag</h3>
+              <p>Grandson of Sita Ram Sharma</p>
+              <p>Son of Tarun Sharma &amp; Nisha Sharma</p>
+            </div>
+
+            <div class="ampersand">&amp;</div>
+
+            <div class="person">
+              <h3>Kirti</h3>
+              <p>Daughter of Shree Pawan</p>
+              <p>&amp; Shreemati Promila</p>
+            </div>
+
+          </div>
+
+          <!-- Small scratch-to-reveal message -->
+          <div class="mini-scratch reveal" id="miniScratch">
+
+            <p class="scratch-message">
+              You are joyfully invited to celebrate this special evening with us.
+            </p>
+
+            <canvas
+              id="scratchCanvas"
+              aria-label="Scratch to reveal the invitation message">
+            </canvas>
+
+            <div class="mini-scratch-hint" id="scratchHint">
+              <span>✦</span>
+              <b>SCRATCH TO REVEAL</b>
+              <span>✦</span>
+            </div>
+
+          </div>
+
+          <!-- Date and time -->
+          <div class="date-panel reveal">
+            <span class="date-label">SAVE THE DATE</span>
+
+            <strong>
+              11 <small>DECEMBER</small> 2026
+            </strong>
+
+            <span class="date-time">
+              RECEPTION · 8:00 P.M.
+            </span>
+          </div>
+
+          <!-- Venue -->
+          <div class="venue reveal">
+            <span class="venue-heading">THE VENUE</span>
+
+            <h4>Rohtak, Haryana</h4>
+
+            <p>
+              Subhash Road, Opposite Civil Hospital,<br>
+              Company Bagh / Rohtak Locality,<br>
+              Rohtak, Haryana 124001
+            </p>
+          </div>
+
+          <p class="closing-line reveal">
+            Your presence will make our celebration memorable
+          </p>
+
+          <div class="bottom-ornament">✧ ❀ ✧</div>
+
+        </div>
+      </article>
+
+      <div class="controls">
+        <button type="button" class="text-button" id="resetScratchBtn">
+          Reset scratch card
+        </button>
+
+        <button type="button" class="text-button" id="replayBtn">
+          ↻ Replay invitation
+        </button>
+      </div>
+
+    </section>
+
+    <div class="sparkles" id="sparkles" aria-hidden="true"></div>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
